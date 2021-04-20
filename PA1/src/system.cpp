@@ -732,6 +732,7 @@ System::partitionWorstFit()
                 }
             }
         }
+    }
     /* check for unscheduable thread */
     for(int i=0;i<CORE_NUM;i++)
     {
